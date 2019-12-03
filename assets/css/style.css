@@ -6,8 +6,6 @@
 }
 
 
-
-
 #name {
     margin-left: 280px;
     background-color: rgb(46, 177, 177);
@@ -114,9 +112,7 @@ a:active {
     border-left-width: 280px;
     border-right-width: 280px;
     border-bottom-width: 50px;
-    
     border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s) 30 round;
-    
 }
 
 
@@ -144,8 +140,8 @@ a:active {
     border-bottom-width: 50px;
     border-right-width: 360px;
     border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s) 30 round;
-    
 }
+
 
 img:hover {
     outline: 5px solid rgb(74, 128, 228);
@@ -225,13 +221,87 @@ img:hover {
 }
 
 
-#game {
+#game1, #game2, #game3, #game4, #game5 {
     float: left;
     width: 27%;
     margin: 20px;
     height: 100px;
 }
 
+.games {
+    position: relative;
+}
+
+h4 {
+    color: white;
+}
+
+
+
+#h41 {
+    position: absolute;
+    align-content: center;
+    margin-top: 80px;
+    background-color: teal;
+    margin-left: 20px;
+    padding-left: 62px;
+    padding-right: 63px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+#h42 {
+    position: absolute;
+    align-content: center;
+    margin-top: 80px;
+    background-color: teal;
+    margin-left: 226px;
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#h43 {
+    position: absolute;
+    align-content: center;
+    margin-top: 220px;
+    background-color: teal;
+    margin-left: 20px;
+    padding-left: 62px;
+    padding-right: 63px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+#h44 {
+    position: absolute;
+    align-content: center;
+    margin-top: 220px;
+    background-color: teal;
+    margin-left: 226px;
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+
+
+#h45 {
+    position: absolute;
+    align-content: center;
+    margin-top: 360px;
+    background-color: teal;
+    margin-left: 20px;
+    padding-left: 62px;
+    padding-right: 63px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 
 #within {
     height: 1px;
@@ -241,9 +311,11 @@ img:hover {
 
 
 footer {
-    height: 5px;
-    background-color:  rgb(46, 177, 177);
+   
+    border-top: 8px solid #4aaaa5
 }
+
+
 
 .clearfix::after {
     content: "";
