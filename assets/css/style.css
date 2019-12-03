@@ -5,17 +5,38 @@
     
 }
 
+#main, #main1, #main2 {
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s");
+    
+}
+
+#all, #all1, #all2 {
+    text-align: center;
+}
+
+#heading, #heading1, #heading2 {
+    display: inline-block;
+    width: 600px;
+    margin-bottom: -10px;
+}
+
+#heading {
+    width: 700px;
+}
+
+
 
 #name {
-    margin-left: 280px;
+    
     background-color: rgb(46, 177, 177);
-    margin-right: 280px;
     float: left;
+    display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     
-    margin-bottom: 0;
+    margin-bottom: -10px;
     margin-top: 0;
     color: white;
     font: 50px;
@@ -24,15 +45,15 @@
 }
 
 #name1 {
-    margin-left: 360px;
-    background-color: rgb(46, 177, 177);
     
+    background-color: rgb(46, 177, 177);
+    display: inline-block;
     float: left;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 0;
+    margin-bottom: -10px;
     margin-top: 0;
     color: white;
     font: 50px;
@@ -40,7 +61,7 @@
 }
 
 #name2 {
-    margin-left: 360px;
+    display: inline-block;
     background-color: rgb(46, 177, 177);
     
     float: left;
@@ -48,7 +69,7 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 0;
+    margin-bottom: -10px;
     margin-top: 0;
     color: white;
     font: 50px;
@@ -56,29 +77,26 @@
 }
 
 #about, #portfolio, #contact, #contact2, #contact1 {
+    
     float: right;
-    width: 5%;
+    width: 12%;
     margin-top: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#contact {
-    margin-right: 280px;
-}
 
-#contact2, #contact1 {
-    margin-right: 360px;
-}
 
 #about {
-    margin-right: -15px;
+    margin-right: -10px;
 }
 
 
 
 
 ul {
-    
+    margin-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
     list-style-type: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -99,24 +117,32 @@ a:active {
     color: purple;
 }
 
+#heading {
+    background-color: white;
+}
+
  
 
 
+#body, #body1, #body2 {
+    box-sizing: border-box;
+    overflow: auto;
+    clear: both;
+    width: 600px;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
 #body {
-    box-sizing: border-box;
-    overflow: auto;
-    clear: both;
-    width: 100%;
-    border-style: solid;
-    border-top-width: 20px;
-    border-left-width: 280px;
-    border-right-width: 280px;
-    border-bottom-width: 50px;
-    border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s) 30 round;
+    width: 700px;
 }
 
 
-#body1 {
+#body1 
     box-sizing: border-box;
     overflow: auto;
     clear: both;
@@ -127,9 +153,9 @@ a:active {
     border-bottom-width: 50px;
     border-right-width: 360px;
     border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s) 30 round;
-}
 
-#body2 {
+
+#body2 
     box-sizing: border-box;
     overflow: auto;
     clear: both;
@@ -140,12 +166,12 @@ a:active {
     border-bottom-width: 50px;
     border-right-width: 360px;
     border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s) 30 round;
-}
 
 
-img:hover {
+
+#box1:hover {
     outline: 5px solid rgb(74, 128, 228);
-    outline-offset: 0px;
+    outline-offset: 100px;
 }
 
 #mypicture:hover {
@@ -223,7 +249,7 @@ img:hover {
 
 #game1, #game2, #game3, #game4, #game5 {
     float: left;
-    width: 27%;
+    width: 175px;
     margin: 20px;
     height: 100px;
 }
@@ -288,19 +314,29 @@ h4 {
     padding-bottom: 8px;
 }
 
+#box1, #box2, #box3, #box4, #box5 {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    float: left;
+    width: 35%;
+    margin-left: 20px;
+    
+    margin-right: px;
+}
 
 
-
-#h45 {
+#h41, #h42, #h43, #h44, #h45 {
     position: absolute;
     align-content: center;
-    margin-top: 360px;
     background-color: teal;
     margin-left: 20px;
+    margin-top: 75px;
     padding-left: 62px;
     padding-right: 63px;
     padding-top: 8px;
     padding-bottom: 8px;
+    width: 175px;
 }
 
 #within {
